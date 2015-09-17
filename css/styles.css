@@ -1,1 +1,28 @@
+body {
+  background-color: #4a4849;
+}
 
+h1 {
+  background-color: #cc3300;
+  padding: 20px;
+  margin: 0px;
+}
+
+.layout-links {
+  background-color: gray;
+  padding: 8px;
+  margin: 0px;
+
+}
+
+.column1 {
+  background-color: #6666ff;
+  margin: 0px;
+  padding: 2px;
+
+}
+
+.sidebar {
+
+
+}
