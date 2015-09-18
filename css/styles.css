@@ -1,28 +1,44 @@
 body {
   background-color: #4a4849;
+
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 4%;
 }
 
 h1 {
   background-color: #cc3300;
   padding: 20px;
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .layout-links {
   background-color: gray;
   padding: 8px;
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
 }
 
 .column1 {
   background-color: #6666ff;
-  margin: 0px;
-  padding: 2px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: left;
+  width: 70%;
+  height: 100%;
 
 }
 
 .sidebar {
-
-
-}
+  background-color: blue;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  float: right;
+  height: 100%;
