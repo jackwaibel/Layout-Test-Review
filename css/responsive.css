@@ -1,1 +1,11 @@
+@media screen and (min-width 480px) {
+  .column1box {
+    width: 56%;
+    float: left;
+  }
 
+  .column2box {
+    width: 56%;
+    float: left;
+  }
+}
