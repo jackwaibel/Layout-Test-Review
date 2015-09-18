@@ -1,19 +1,27 @@
 body {
   background-color: #4a4849;
-
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+  overflow-y: hidden;
 }
 
-.container {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 4%;
-}
-
-h1 {
+.titlebox {
   background-color: #cc3300;
-  padding: 20px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.titleboxtext {
+  font-weight: bold;
+  font-size: 20px;
+  padding bottom: 5px;
+  padding left: 10px;
+  padding right: 10px;
+  padding top: 5px;
 }
 
 .layout-links {
@@ -21,24 +29,56 @@ h1 {
   padding: 8px;
   margin-top: 0px;
   margin-bottom: 0px;
-
 }
 
-.column1 {
-  background-color: #6666ff;
+.contentbox {
+  margin: 0px;
   padding: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  float: left;
-  width: 70%;
   height: 100%;
+  overflow-y: hidden;
+  display: block;
+}
+
+h1 {
+  padding-left: 10px;
+}
+
+.column1box {
+  background-color: #6666ff;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 70%;
+  clear: left;
+  overflow-y:hidden;
+  position: absolute;
+  display: block;
 
 }
 
-.sidebar {
+.column1text {
+  padding left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.column2box {
   background-color: blue;
-  top: 0;
-  bottom: 0;
+  margin: 0px;
+  padding: 0px;
+  height: 100%
+  min-height: 100%;
   width: 30%;
   float: right;
-  height: 100%;
+  clear: both;
+  overflow-y: hidden;
+  display: block;
+
+}
+
+.column2text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
