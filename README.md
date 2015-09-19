@@ -17,7 +17,7 @@ This is a webpage that demonstrates my knowledge of HTML and CSS and utilize the
 
 ##Link to GitHub Pages
 
-*
+*http://jackwaibel.github.io/Layout-Test-Review/
 
 ##Legal
 
